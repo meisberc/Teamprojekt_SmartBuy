@@ -20,4 +20,8 @@ public class ItemList {
     }
 
 
+    public void delItems(PurchaseItems pItem)
+    {
+        items.remove(pItem);
+    }
 }
